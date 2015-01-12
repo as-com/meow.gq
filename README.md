@@ -1,2 +1,2 @@
 # meow.gq
-Everyone loves kittens!
+> Everyone loves kittens!
