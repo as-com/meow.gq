@@ -2,7 +2,44 @@
 <html>
 <head>
 <title>MEOW!</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/*
+  FLUIDITY v0.1.0
+  @mrmrs - http://mrmrs.cc
+  MIT
+*/
+/*
+
+  Responsive Utilities
+
+*/
+img, canvas, iframe, video, svg, select, textarea {
+  max-width: 100%; }
+
+/* Wrap tables or pre elements in a div with this class */
+.overflow-container {
+  overflow-x: scroll; }
+
+/*
+  Aspect ratios for media objects i.e canvas, iframe, video, svg etc.
+  Defaults to 16x9
+*/
+.aspect-ratio {
+  height: 0;
+  padding-top: 56.25%;
+  position: relative; }
+
+.aspect-ratio--object {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; }
 body {
   text-align: center;
 }
@@ -21,7 +58,11 @@ body {
 <body>
 <img src="kitten.jpg" width="317" height="320">
 <h1>MEOW!</h1>
-<p>This website is coming soon...</p>
+<br>
+<br>
+<br>
+<br>
+<p>Yet another gimmick by <a href="https://andrewsun.com">Andrew Sun</a>.</p>
 <div style="position: absolute; bottom: 0; right: 0"><a href="https://flic.kr/p/e9utR" style="color: #aaa">Photo credit</a></div>
 </body>
 </html>
